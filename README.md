@@ -1,5 +1,9 @@
 # ksql-udf-entropy
 
+#### Build
+```bash
+➜  ~ ./gradlew build
+```
 
 #### Deployment
 The jar should be copied to the `ext/` directory that is part of the KSQL distribution. The `ext/` directory can be configured via the `ksql.extension.dir`.
